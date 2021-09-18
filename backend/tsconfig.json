@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["es2018", "esnext.asynciterable"],
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./types",
+      "node_modules/@types"
+    ],
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*",  "./custom.d.ts"],
+  "exclude": [
+    "./node_modules/*"
+    ]
+}
