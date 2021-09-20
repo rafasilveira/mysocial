@@ -5,13 +5,13 @@ Sample webapp showcasing a Node.js backend and a React frontend. Based on [this 
 ## Backend
 ![backend query](assets/query.jpeg)
 
-> Stack
+### Stack
 - NodeJS
 - Express
 - GraphQL (Apollo Server)
 - TypeScript
 
-> Running
+### Running
 ```bash
 gh repo clone rafasilveira/mysocial
 cd mysocial
